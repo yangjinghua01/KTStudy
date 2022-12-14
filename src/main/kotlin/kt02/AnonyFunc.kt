@@ -13,7 +13,7 @@ fun main() {
 //        val holiday = "New Year."
 //        "$name Happy $holiday"
 //    }
-    showOnBoard("111", getDiscontWords)
+    showOnBoard( "111", getDiscontWords)
 }
 //定义匿名函数
 val getDiscontWords = {
