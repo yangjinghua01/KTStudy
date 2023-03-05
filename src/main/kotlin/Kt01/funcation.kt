@@ -1,5 +1,7 @@
 package Kt01
 
+import java.sql.DriverManager.println
+
 fun main() {
     dosomeThing(2, false);
     fix("1")
