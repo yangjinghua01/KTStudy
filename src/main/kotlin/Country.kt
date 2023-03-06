@@ -33,11 +33,16 @@ class CountryApp{
         }
         return res
     }
+
 }
 class CountryTest{
-    fun isBigEurropeanCountry(country: Country):Boolean{
-        return country.continient == "EU"&&country.population>1000
-    }
+//    fun isBigEurropeanCountry(country: Country):Boolean{
+//        return country.continient == "EU"&&country.population>1000
+//    }
+
+//    fun(country:Country):Boolean{
+//        return country.continient=="EU"&&country.population>10000
+//    }
 }
 fun filterCountries(countries: List<Country>, test:(Country)->Boolean):List<Country>{
     val res = ArrayList<Country>()
@@ -48,5 +53,6 @@ fun filterCountries(countries: List<Country>, test:(Country)->Boolean):List<Coun
     }
     return res
 }
+
 
 
