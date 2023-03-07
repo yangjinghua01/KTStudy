@@ -1,5 +1,6 @@
 package Kt01
 
+import Bird
 import Country
 import CountryApp
 import CountryTest
@@ -36,6 +37,10 @@ fun main() {
     }
     //fun带等号，是单表达式函数体，该情况下可以省略reture
     fun food(x:Int,y:Int) =x+y
+
+   var bird = Bird()
+    val bird1 = Bird.Bird(color = "black")
+    val bird2 = Bird.Bird(weight = 100.00, color = "black")
 
 
 }
